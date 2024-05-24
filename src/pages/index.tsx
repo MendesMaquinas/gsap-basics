@@ -30,6 +30,9 @@ export default function Home() {
         onComplete: () => {
           //t1.restart();
         }
+      }).from("welcome", {
+        opacity: 0,
+        duration: 0.5,
       })
     }, comp)
 
